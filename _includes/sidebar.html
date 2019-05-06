@@ -1,5 +1,5 @@
-<div class="sidebar">
-  <div class="container sidebar-sticky">
+<div id="sidebar-wrapper">
+  <div id="sidebar">
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
@@ -21,5 +21,11 @@
 
       <a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">GitHub project</a>
     </nav>
+  </div>
+
+  <div id="sidebar-overlay" onclick="getElementById('sidebar-wrapper').toggleAttribute('active')"></div>
+
+  <div id="sidebar-control" onclick="getElementById('sidebar-wrapper').toggleAttribute('active')">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </div>
 </div>
