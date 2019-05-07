@@ -19,22 +19,25 @@ html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   height: 100%;
 }
+body {
+  display: flex;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+}
 @media (min-width: 48em) {
   html {
     font-size: 16px;
   }
+  body {
+    flex-direction: row;
+  }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
-}
-
-body {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  position: relative;
 }
 
 /*
@@ -91,7 +94,9 @@ body {
   color: #fff;
   margin-top: 0;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-size: 3rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: flex;
 }
 
 /* Sidebar nav */
@@ -121,15 +126,21 @@ body {
  * with a 25%-wide `.sidebar`.
  */
 
-.content {
+#content-wrapper {
+  overflow-y: auto;
+  width: 100%;
+}
+
+#content {
+  margin-top: 2rem;
 }
 
 @media (min-width: 48em) {
-  .content {
+  #content {
   }
 }
 
 @media (min-width: 64em) {
-  .content {
+  #content {
   }
 }

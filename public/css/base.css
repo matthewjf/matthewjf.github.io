@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
 h2 {
@@ -102,6 +103,8 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  list-style: none;
+  padding-inline-start: 0px;
 }
 
 dt {
@@ -273,6 +276,8 @@ tbody tr:nth-child(odd) th {
   max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -329,8 +334,6 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
   color: #9a9a9a;
 }
 
