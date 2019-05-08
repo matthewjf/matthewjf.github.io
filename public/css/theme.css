@@ -23,7 +23,6 @@ body {
   display: flex;
   height: 100%;
   position: relative;
-  overflow: hidden;
   flex-direction: column;
 }
 @media (min-width: 48em) {
@@ -44,10 +43,11 @@ body {
  */
 
 #sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  height: 100%;
   width: 300px;
   left: -300px;
   transition: left 300ms ease-in-out;
@@ -68,7 +68,6 @@ body {
 
 @media (min-width: 48em) {
   #sidebar {
-    position: relative;
     left: 0;
   }
   #sidebar-control {
@@ -147,7 +146,6 @@ body {
  */
 
 #content-wrapper {
-  overflow-y: auto;
   width: 100%;
 }
 
@@ -156,11 +154,7 @@ body {
 }
 
 @media (min-width: 48em) {
-  #content {
-  }
-}
-
-@media (min-width: 64em) {
-  #content {
+  #content-wrapper {
+    margin-left: 300px;
   }
 }

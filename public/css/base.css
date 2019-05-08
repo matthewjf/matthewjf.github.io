@@ -65,6 +65,7 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
@@ -72,7 +73,6 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
 h2 {
@@ -103,8 +103,6 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
-  list-style: none;
-  padding-inline-start: 0px;
 }
 
 dt {
@@ -116,6 +114,7 @@ dd {
 
 /* Misc */
 hr {
+  z-index: -1;
   position: relative;
   margin: 1.5rem 0;
   border: 0;
@@ -318,6 +317,12 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+}
+
+/* Blog post or page image */
+.page-image,
+.post-image {
+  padding: 1rem;
 }
 
 /* Blog post or page title */
