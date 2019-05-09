@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Keyboard"
-date:   2019-05-05 14:48:18 -0700
+date:   2019-01-05 14:48:18 -0700
 categories: keyboards
 image: "/public/images/keyboard_wires.jpg"
 ---
@@ -25,14 +25,14 @@ I wanted to rethink keyboards with a number of improvements:
 **Ergonomics**: Keys on a keyboard are horizontally aligned. When bringing your hands together, they naturally bend inward at an angle. The horizontal alignment of keys doesn't match the angle of your hands, which can create strain.
 
 
-Finally, I hoped to understand how keyboards work at the end of this process. I decided to build one from scratch.
+Finally, I hoped to understand how keyboards work at the end of this process, which is why I built one from scratch.
 
 ****
 
 ## The Build
 This will be a short section. Much of the process was taken directly from this <a href="https://gizmodo.com/i-built-a-keyboard-from-scratch-1649325860" target="_blank">article</a>.
 
-For the physical layout of the keyboard, I used CAD files from the <a href="https://www.ergodox.io/" target="_target">ergodox</a> as a starting point and modified them to my own design. The case was made from laser cut acrylic.
+For the physical layout of the keyboard, I used CAD files from the <a href="https://www.ergodox.io/" target="_target">ergodox</a> as a starting point and modified them to my own design. The case is made from laser cut acrylic.
 
 ![keyboard](/public/images/keyboard_open.jpg "keyboard")
 
@@ -40,4 +40,28 @@ The keyboard uses a teensy 2.0 microcontroller, and a <a href="https://en.wikipe
 
 ![keyboard](/public/images/keyboard_finished.jpg "keyboard")
 
-Easy right? Designing, sourcing parts, and assembling the keyboard took several months.
+Designing, sourcing parts, and assembling the keyboard took several months. Turns out it's also expensive to build your own keyboard. Here's the cost breakdown:
+
+| Item                  |  Price  |
+| :-------------------- | -------:|
+| diodes                |   $6.93 |
+| teensy and wires      |  $34.13 |
+| case                  |  $68.45 |
+| switches              |  $75.56 |
+| modifiers and orings  |  $36.25 |
+| nuts and spacers      |  $17.98 |
+| keycaps and leds      |  $43.48 |
+| **total**             | $282.78 |
+
+
+****
+
+## Conclusions
+
+There's so many details to how I finally settled on a keyboard layout that it deserves it's own post, so I won't dig into those changes here. However, having `enter`, `backspace`, `space` and `delete` accessible to my thumbs was enough of a win on its own to make the change worthwhile. No more pulling your hand off the home row to fix mistakes, and I make a lot of mistakes. In my current layout, each thumb is responsible for 5 keys.
+
+Another advantage was that touch typing numbers became trivial with an ortholinear layout. No more uncertainty when trying to hit `6`. I also found myself moving my hand off the home row significantly less.
+
+On the downside, using an acrylic case without a PCB board, the final product wasn't very durable. Keys are held in place by a couple tabs on each of the switches. A few of these became loose or broke over time, which made the switches feel unstable. A metal mounting plate instead of acrylic would likely resolve the problem.
+
+Ultimately, thumb usage and being able to customize the keyboard layout were the greatest benefits to the keyboard. I spend so much of my day on keyboards and have never regretted the investment. In fact, I built 3 more keyboards after that, improving on the initial design.

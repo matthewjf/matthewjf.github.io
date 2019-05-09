@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Posts
+permalink: /posts/
 position: 1
 ---
 
