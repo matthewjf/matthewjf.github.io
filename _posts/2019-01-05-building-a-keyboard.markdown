@@ -58,10 +58,10 @@ Designing, sourcing parts, and assembling the keyboard took several months. Turn
 
 ## Conclusions
 
-There's so many details to how I finally settled on a keyboard layout that it deserves it's own post, so I won't dig into those changes here. However, having `enter`, `backspace`, `space` and `delete` accessible to my thumbs was enough of a win on its own to make the change worthwhile. No more pulling your hand off the home row to fix mistakes, and I make a lot of mistakes. In my current layout, each thumb is responsible for 5 keys.
+There's so many details to how I finally settled on a keyboard layout that it deserves it's own post, so I won't dig into those changes here. However, having `enter`, `backspace`, `space` and `delete` accessible to my thumbs is enough of a win on its own to make the change worthwhile. No more pulling my fingers off the home row to hit backspace or enter.
 
-Another advantage was that touch typing numbers became trivial with an ortholinear layout. No more uncertainty when trying to hit `6`. I also found myself moving my hand off the home row significantly less.
+Another advantage is that touch typing numbers is trivial with an ortholinear layout. It's much easier to find the number `6`.
 
-On the downside, using an acrylic case without a PCB board, the final product wasn't very durable. Keys are held in place by a couple tabs on each of the switches. A few of these became loose or broke over time, which made the switches feel unstable. A metal mounting plate instead of acrylic would likely resolve the problem.
+On the downside, using an acrylic case without a PCB board, the final product isn't very durable. Keys are held in place by a couple tabs on each of the switches. A few of these became loose or broke over time, which makes the switches feel unstable. A metal mounting plate instead of acrylic would likely resolve the problem.
 
-Ultimately, thumb usage and being able to customize the keyboard layout were the greatest benefits to the keyboard. I spend so much of my day on keyboards and have never regretted the investment. In fact, I built 3 more keyboards after that, improving on the initial design.
+Ultimately, thumb usage and being able to customize the keyboard layout are the greatest benefits to the keyboard. I spend so much of my day on keyboards and have never regretted the investment. In fact, I built 3 more keyboards after that, improving on the initial design.
