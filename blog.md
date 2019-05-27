@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Posts
-permalink: /posts/
-position: 1
+title: Blog
+permalink: /blog/
+position: 2
 ---
 
 <ul>
