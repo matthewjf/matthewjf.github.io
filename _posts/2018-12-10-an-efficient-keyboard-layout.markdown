@@ -2,11 +2,12 @@
 layout: post
 title:  "An Efficient Keyboard Layout"
 date:   2018-12-10 08:12:18 -0700
-categories: keyboards
+categories: Keyboards
+tags: [keyboards]
 image: "/public/images/infinity_ergodox.jpg"
 ---
 
-I thought a lot about keyboard efficiency while designing and [building a keyboard](keyboards/2019/01/05/building-a-keyboard.html). I had a friend mention that he used <a href="https://colemak.com/" target="_blank">Colemak</a>, a keyboard layout alternative to QWERTY. This got me wondering, what makes an efficient keyboard layout?
+I thought a lot about keyboard efficiency while designing and [building a keyboard](keyboards/2019/01/05/building-a-keyboard.html). I had a friend mention that he used <a href="https://colemak.com/" target="_blank_">Colemak</a>, a keyboard layout alternative to QWERTY. This got me wondering, what makes an efficient keyboard layout?
 
 ****
 
@@ -24,11 +25,11 @@ Two well known QWERTY alternatives are **Dvorak** and **Colemak**. Both of these
 - I use a matrix layout keyboard (ortholinear)
 - I'm not concerned with the ease of transition from QWERTY
 
-After some searching, I found the <a href="https://workmanlayout.org/" target="_blank">Workman layout</a>. On the workman website, there's a detailed explanation on the drawbacks of both Colmak and Dvorak. The design philosophy is that each key takes some amount of effort, and given some representative body of text, we can create a layout that minimizes typing effort.
+After some searching, I found the <a href="https://workmanlayout.org/" target="_blank_">Workman layout</a>. On the workman website, there's a detailed explanation on the drawbacks of both Colmak and Dvorak. The design philosophy is that each key takes some amount of effort, and given some representative body of text, we can create a layout that minimizes typing effort.
 
 ![workman layout](/public/images/workman_layout.png "workman layout")  
 
-*Note: I later discovered <a href="http://mkweb.bcgsc.ca/carpalx/" target="_blank">Carpalx</a>, a robust quantitative model for keyboard layout optimization. Something worth looking into.*
+*Note: I later discovered <a href="http://mkweb.bcgsc.ca/carpalx/" target="_blank_">Carpalx</a>, a robust quantitative model for keyboard layout optimization. Something worth looking into.*
 
 It took several months of using Workman before reaching a similar level of proficiency. Many common key combinations became much easier and quicker, and I felt overall less finger stress while using it. But Workman only changes the orientation of letters. As I continued to use it, I found there was a lot of opportunity for improvement in other areas.
 

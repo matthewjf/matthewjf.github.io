@@ -2,13 +2,14 @@
 layout: post
 title:  "Building a Keyboard"
 date:   2018-11-05 14:48:18 -0700
-categories: keyboards
+categories: Keyboards
+tags: [keyboards, make]
 image: "/public/images/keyboard_wires.jpg"
 ---
 
 I use a lot tools to optimize my life, but spent 20+ years using keyboards without questioning them. The majority of keyboards you can buy use the same format, a format which was originally designed for typewriters.
 
-> A feature much less commented-on than the order of the keys is that the keys do not form a rectangular grid, but rather each column slants diagonally. This is because of the mechanical linkages – each key is attached to a lever, and hence the offset prevents the levers from running into each other – and has been retained in most electronic keyboards. <cite><a href="https://en.wikipedia.org/wiki/QWERTY#Properties" target="_blank">(source)</a></cite>
+> A feature much less commented-on than the order of the keys is that the keys do not form a rectangular grid, but rather each column slants diagonally. This is because of the mechanical linkages – each key is attached to a lever, and hence the offset prevents the levers from running into each other – and has been retained in most electronic keyboards. <cite><a href="https://en.wikipedia.org/wiki/QWERTY#Properties" target="_blank_">(source)</a></cite>
 
 ****
 
@@ -40,7 +41,7 @@ The keyboard uses a teensy 2.0 microcontroller, and a <a href="https://en.wikipe
 
 ![keyboard](/public/images/keyboard_finished.jpg "keyboard")
 
-Designing, sourcing parts, and assembling the keyboard took several months. Turns out it's also expensive to build your own keyboard. Here's the cost breakdown:
+Designing, sourcing parts, and assembling the keyboard took several months. Turns out it's also expensive to build your own keyboard. Here's the cost breakdown (excluding tools):
 
 | Item                  |  Price  |
 | :-------------------- | -------:|
@@ -51,7 +52,7 @@ Designing, sourcing parts, and assembling the keyboard took several months. Turn
 | modifiers and orings  |  $36.25 |
 | nuts and spacers      |  $17.98 |
 | keycaps and leds      |  $43.48 |
-| **total**             | $282.78 |
+| **total**             | **$282.78** |
 
 
 ****
@@ -60,8 +61,8 @@ Designing, sourcing parts, and assembling the keyboard took several months. Turn
 
 There's so many details to how I finally settled on a keyboard layout that it deserves it's own post, so I won't dig into those changes here. However, having `enter`, `backspace`, `space` and `delete` accessible to my thumbs is enough of a win on its own to make the change worthwhile. No more pulling my fingers off the home row to hit backspace or enter.
 
-Another advantage is that touch typing numbers is trivial with an ortholinear layout. It's much easier to find the number `6`.
+Another advantage is that touch typing numbers is trivial with an ortholinear layout. I've always had trouble with the number `6` on a standard keyboard.
 
-On the downside, using an acrylic case without a PCB board, the final product isn't very durable. Keys are held in place by a couple tabs on each of the switches. A few of these became loose or broke over time, which makes the switches feel unstable. A metal mounting plate instead of acrylic would likely resolve the problem.
+On the downside, acrylic isn't very durable. Keys are held in place by a couple tabs on each of the switches. A few of these became loose or broke over time, which makes the switches feel unstable. Either a metal mounting plate or using PCB would likely resolve the problem.
 
 Ultimately, thumb usage and being able to customize the keyboard layout are the greatest benefits to the keyboard. I spend so much of my day on keyboards and have never regretted the investment. In fact, I built 3 more keyboards after that, improving on the initial design.

@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  color: #515151;
+  color: #666666;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 h2 {
   margin-top: 1rem;
@@ -217,7 +217,6 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
 }
 
 /* Tables */
@@ -337,10 +336,22 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 
+.post-title:after {
+  background-color: #ff9800;
+  display: block;
+  content: "";
+  height: 1px;
+  margin-top: 0.8em;
+  margin-bottom: 1rem;
+  width: 60px;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
   color: #9a9a9a;
+  margin-bottom: 1.25rem;
+  font-size: 0.8rem;
 }
 
 /* Related posts */

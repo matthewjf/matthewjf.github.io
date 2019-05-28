@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="post">
-  <span class="post-date container">{{ page.date | date_to_string }}</span>
+  <span class="post-date container">{{ page.date | date: '%B %d, %Y' }}</span>
   <h1 class="post-title container">{{ page.title }}</h1>
 
   {% if page.image %}

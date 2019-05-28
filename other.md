@@ -11,7 +11,7 @@ position: 3
 
 [ ![dog](/public/images/doggo.jpg "doggo") ](/public/images/doggo.jpg)
 <div>
-Lira is a german shepherd husky mix. Her favorite activities include barking at statues ferociously, eating poop, getting pulled along during runs and unsuccessfully hunting gofers. She's a major goofball and I enjoy every minute I get to spend with her.
+Lira is a german shepherd husky mix. Her favorite activities include barking at statues ferociously, rolling in poop, getting pulled along during runs, and unsuccessfully hunting gophers. She's a major goofball and I enjoy every minute I get to spend with her.
 </div>
 
 *****
