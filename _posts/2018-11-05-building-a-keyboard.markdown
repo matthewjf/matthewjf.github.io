@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Keyboard"
-date:   2019-01-05 14:48:18 -0700
+date:   2018-11-05 14:48:18 -0700
 categories: keyboards
 image: "/public/images/keyboard_wires.jpg"
 ---
