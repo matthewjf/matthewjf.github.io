@@ -322,7 +322,8 @@ tbody tr:nth-child(odd) th {
 /* Blog post or page image */
 .page-image,
 .post-image {
-  padding: 1rem;
+  padding: 0 1rem;
+  margin: 2rem 0;
 }
 
 /* Blog post or page title */
@@ -334,9 +335,10 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin-top: 0;
+  margin-bottom: 2rem;
 }
 
-.post-title:after {
+.post-title:after, .page-title:after{
   background-color: #ff9800;
   display: block;
   content: "";

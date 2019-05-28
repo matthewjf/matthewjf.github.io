@@ -53,9 +53,6 @@ body {
   transition: left 300ms ease-in-out;
   background-color: rgb(29, 29, 29);
 }
-#sidebar-wrapper {
-  display: flex;
-}
 #sidebar-wrapper[active] #sidebar {
   left: 0px;
   z-index: 1;
@@ -76,6 +73,7 @@ body {
 }
 
 #sidebar-control {
+  padding-left: 1rem;
   padding-top: 1rem;
   cursor: pointer;
 }
@@ -156,6 +154,10 @@ body {
 }
 
 @media (min-width: 48em) {
+  #content {
+    padding-top: 2.5rem;
+  }
+
   #content-wrapper {
     margin-left: 300px;
   }
