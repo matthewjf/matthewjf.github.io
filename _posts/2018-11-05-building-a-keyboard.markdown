@@ -9,7 +9,7 @@ image: "/public/images/keyboard_wires.jpg"
 
 I use a lot tools to optimize my life, but spent 20+ years using keyboards without questioning them. The majority of keyboards you can buy use the same format, a format which was originally designed for typewriters.
 
-> A feature much less commented-on than the order of the keys is that the keys do not form a rectangular grid, but rather each column slants diagonally. This is because of the mechanical linkages – each key is attached to a lever, and hence the offset prevents the levers from running into each other – and has been retained in most electronic keyboards. <cite><a href="https://en.wikipedia.org/wiki/QWERTY#Properties" target="_blank_">(source)</a></cite>
+> A feature much less commented-on than the order of the keys is that the keys do not form a rectangular grid, but rather each column slants diagonally. This is because of the mechanical linkages – each key is attached to a lever, and hence the offset prevents the levers from running into each other – and has been retained in most electronic keyboards. (<cite><a href="https://en.wikipedia.org/wiki/QWERTY#Properties" target="_blank_">source</a></cite>)
 
 ****
 
