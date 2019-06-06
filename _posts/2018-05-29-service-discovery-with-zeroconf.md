@@ -29,10 +29,25 @@ It allows devices on the network to be discoverable.
 
 ### MacOS/iOS
 
-Apple products come with this enabled out of the box and it doesn't require any work. 
+Apple products come with this enabled out of the box and it doesn't require any work.
 
 ### Linux
 
+<a href="https://linux.die.net/man/8/avahi-daemon" target="_blank_">Avahi Daemon</a> is easy to install on the raspberry pi and works without much configuration.
+
 ### Windows
 
+This is where things get a bit challenging. Windows doesn't support this out of the box. The best 3rd party software that I could find was Apple's Bonjour Print Services for Windows. With the latest version of windows, the service kept dying on sleep. There's some windows configuration to restart such services, but the issue kept occurring. The solution was to write a bash script that would attempt to kill the process and restart it whenever the computer wakes up. This seems to work in ***most*** cases.
+
 ### Android
+
+I had a small 7" android tablet that I was intending to use as a dedicated remote. I tried using some existing implementations of zeroconf to see if I could discover the other devices on the network. At the time, there were only a few options. <a href="https://melloware.com/zeroconf/" target="_blank_">Zeroconf browser</a> was the best match, but I couldn't get it to discover any other services on the network, no matter how hard I tried. The battery life on the cheap tablet was pretty bad as well, so I ended up ditching it altogether.
+
+## Takeaways
+
+I initially liked the idea of running everything locally because of fewer security concerns and faster response times. If the only devices you need to connect are Apple and Linux devices, no problem. When you start mixing in Windows and Android, things can get a bit messier. Unfortunately, there's silver bullet to this problem.
+
+### Additional Info
+
+<a href="https://github.com/matthewjf/bandit_mobile/" target="_blank_">React Native mobile client</a>  
+<a href="https://github.com/matthewjf/bandit/" target="_blank_">Node web application</a>
