@@ -83,8 +83,8 @@ mailchimp:
 #-------------------------------
 # Footer Settings
 social:
-- {icon: "ion-logo-github", color: "#55acee", label: Github, link: "https://github.com/matthewjf"}
-- {icon: "ion-logo-linkedin", color: "#3b5999", label: LinkedIn, link: "https://linkedin.com/in/mattjfong"}
+- {icon: "ion-logo-github", color: "--heading-font-color", label: Github, link: "https://github.com/matthewjf"}
+- {icon: "ion-logo-linkedin", color: "#0a66c2", label: LinkedIn, link: "https://linkedin.com/in/mattjfong"}
 
 
 # Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
