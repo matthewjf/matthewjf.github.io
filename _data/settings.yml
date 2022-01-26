@@ -1,9 +1,9 @@
 #-------------------------------
 # Site Settings
-title: Clancy
+title: Matt Fong
 logo: # You can add own logo. For example '/images/logo.png'.
-author: Jason Collins
-description: Clancy is a elegant portfolio theme for Jekyll.
+author: Matt Fong
+description: Matt Fong is a developer of distributed systems and technical leader.
 
 
 #-------------------------------
@@ -18,8 +18,8 @@ menu__settings:
       url: '/about/'
     - title: 'Contact'
       url: '/contact/'
-    - title: 'Elements'
-      url: '/elements/'
+    # - title: 'Elements'
+      # url: '/elements/'
 
 
 #-------------------------------
