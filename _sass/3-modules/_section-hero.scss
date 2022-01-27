@@ -8,6 +8,12 @@
 }
 
 .hero__inner {
+  .hero__prefix {
+    color: var(--brand-color);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
   .hero__title {
     margin-bottom: 32px;
     font-size: 68px;

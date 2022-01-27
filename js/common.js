@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   'use strict';
 
   var html = document.querySelector('html'),
@@ -44,11 +44,11 @@ document.addEventListener("DOMContentLoaded", function() {
   function darkMode() {
     if (html.classList.contains('dark-mode')) {
       html.classList.remove('dark-mode');
-      localStorage.removeItem("theme");
+      localStorage.setItem("theme", "light");
       document.documentElement.removeAttribute("dark");
     } else {
       html.classList.add('dark-mode');
-      localStorage.setItem("theme", "dark");
+      localStorage.removeItem("theme");
       document.documentElement.setAttribute("dark", "");
     }
   }
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Zoom Image
   ======================= */
   const lightense = document.querySelector(".page__content img, .post__content img"),
-  imageLink = document.querySelectorAll(".page__content a img, .post__content a img");
+    imageLink = document.querySelectorAll(".page__content a img, .post__content a img");
 
   if (imageLink) {
     for (var i = 0; i < imageLink.length; i++) imageLink[i].parentNode.classList.add("image-link");
@@ -87,8 +87,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (lightense) {
     Lightense(".page__content img:not(.no-lightense), .post__content img:not(.no-lightense)", {
-    padding: 60,
-    offset: 30
+      padding: 60,
+      offset: 30
     });
   }
 

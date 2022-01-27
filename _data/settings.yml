@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Matt Fong
-logo: # You can add own logo. For example '/images/logo.png'.
+logo:
 author: Matt Fong
 description: Matt Fong is a developer of distributed systems and technical leader.
 
@@ -25,8 +25,9 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I'm Matt.
-  hero__description: I build distributed systems and exceptional teams.
+  hero__prefix: Hey there,
+  hero__title:  I'm Matt.
+  hero__description: I'm a software engineer with a focus on distributed systems. I'm deeply motivated by building exceptional engineering teams.
 
 
 #-------------------------------
