@@ -4,7 +4,7 @@ title:  "Service Discovery with Zeroconf"
 date:   2018-5-29 18:33:11 -0700
 categories: Mobile
 tags: [mobile, networking, make]
-image: "/public/images/satellite.jpg"
+image: "/images/satellite.jpg"
 ---
 
 My TV system has a TV (of course), an audio receiver, and a home theater PC. It's cumbersome to deal with all of that using a universal remote. So I decided to build a mobile app to control all of these components in a simple way, and to teach myself a little about mobile app development.
@@ -17,7 +17,7 @@ After a bit of searching, I discovered LIRC which is an open source package to s
 
 I initially thought of adding a IR receiver via usb, but it seemed that the more things that could communicate over the network, the better. The raspberry pi would serve as the smart home hub, which receives requests from clients and sends commands out to all the connected devices.
 
-[ ![raspberry pi](/public/images/raspberry_pi.jpg "raspberry pi") ](/public/images/raspberry_pi.jpg)
+[ ![raspberry pi](/images/raspberry_pi.jpg "raspberry pi") ](/public/images/raspberry_pi.jpg)
 
 So, I got the raspberry pi setup, able to send and receive IR signals. I get a basic web server running on the home theater PC. Time to hook everything up. ***Wait***. How do I know the status of each of the services? How do I deal with dynamic IPs on a local network? I didn't want devices to be on all the time, but I first needed a way to identify the status of each of the devices and wake them if necessary.
 
@@ -49,5 +49,5 @@ I initially liked the idea of running everything locally because of fewer securi
 
 ### Additional Info
 
-<a href="https://github.com/matthewjf/bandit_mobile/" target="_blank_">React Native mobile client</a>  
+<a href="https://github.com/matthewjf/bandit_mobile/" target="_blank_">React Native mobile client</a><br/>
 <a href="https://github.com/matthewjf/bandit/" target="_blank_">Node web application</a>
