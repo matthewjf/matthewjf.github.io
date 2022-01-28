@@ -34,7 +34,6 @@
   --syntax-highlighting-background: #f3f3f3;
 
   --kbd-color: var(--text-color);
-  --kbd-background-color: var(--light-gray);
 }
 
 :root[dark] {
@@ -68,5 +67,4 @@
   --syntax-highlighting-background: #080b12;
 
   --kbd-color: var(--brand-color);
-  --kbd-background-color: black;
 }

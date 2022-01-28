@@ -21,6 +21,8 @@ As a test case, I wrote the JSON generation as a large SQL query using the Postg
 
 So this got me thinking, what if we could package this in a developer friendly DSL?
 
+****
+
 ## PgSerializable
 
 I got to work one weekend and came up with [PgSerializable](https://github.com/matthewjf/pg_serializable).
@@ -50,11 +52,15 @@ Product.find(10).json
 
 One of the early tradeoffs I made was to put the code responsible for defining the serialization structure into the models. This coupled the view and model layers more than I would have liked, but it had some advantages. It enabled precomputing the ASTs for the SQL queries and validating that the serialization structure. Later I moved the validations into an initializer, which was a good first step towards decoupling these layers.
 
+****
+
 # Production
 
 I really wanted to see how it performed in production before investing more time. This project sat around for a couple months until I got a chance to implement it for new service that we were creating. So we setup some dashboards to see how this new service perfromed out in the wild and the results were surprising.
 
 The average response time on `GET` requests to our REST APIs was <b>~18ms</b>, with a p95 roughly double that! This wasn't a particularly high traffic application and we were careful about limiting the level of nesting in the responses, which helped keep our response times low, but I'd never worked in a rails application that was this performant. We didn't even implement caching, which would help quite a bit.
+
+****
 
 # Conclusion
 

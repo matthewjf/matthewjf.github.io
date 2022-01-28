@@ -231,7 +231,7 @@ table td {
 }
 
 code, kbd {
-  background-color: var(--kbd-background-color);
+  background-color: var(--syntax-highlighting-background);
   color: var(--kbd-color);
   padding: 0 .25em;
   border-radius: 3px;
