@@ -4,7 +4,7 @@ title:  "Building a Keyboard"
 date:   2018-11-05 14:48:18 -0700
 categories: Keyboards
 tags: [keyboards, make]
-image: "/public/images/keyboard_wires.jpg"
+image: "/images/keyboard_wires.jpg"
 ---
 
 I use a lot tools to optimize my life, but spent 20+ years using keyboards without questioning them. The majority of keyboards you can buy use the same format, a format which was originally designed for typewriters.
@@ -21,7 +21,7 @@ I wanted to rethink keyboards with a number of improvements:
 
 **Non-QWERTY Layout**: QWERTY was originally designed for typewriters. Typewriters require much more finger force, so switching hands between keys was an advantage. Modern keyboards don't have the same constraints. I wanted a layout that minimizes overall effort. It turns out this is very specific to the tasks I do but I'll revisit that later.
 
-**Thumb Usage Rate**: Thumbs have the greatest lateral movement of all the fingers on the hand and share 2 keys: `cmd|alt`+`space`. Meanwhile, one index finger is responsible for 8 keys. I wanted a keyboard that utilized my thumbs much more.
+**Thumb Usage Rate**: Thumbs have the greatest lateral movement of all the fingers on the hand and share 2 keys: <kbd>cmd</kbd>+<kbd>space</kbd>. Meanwhile, one index finger is responsible for 8 keys. I wanted a keyboard that utilized my thumbs much more.
 
 **Ergonomics**: Keys on a keyboard are horizontally aligned. When bringing your hands together, they naturally bend inward at an angle. The horizontal alignment of keys doesn't match the angle of your hands, which can create strain.
 
@@ -35,11 +35,11 @@ This will be a short section. Much of the process was taken directly from this <
 
 For the physical layout of the keyboard, I used CAD files from the <a href="https://www.ergodox.io/" target="_target">ergodox</a> as a starting point and modified them to my own design. The case is made from laser cut acrylic.
 
-![keyboard](/public/images/keyboard_open.jpg "keyboard")
+![keyboard](/images/keyboard_open.jpg "keyboard")
 
 The keyboard uses a teensy 2.0 microcontroller, and a <a href="https://en.wikipedia.org/wiki/Keyboard_matrix_circuit" target="_blank">matrix circuit</a> to connect all the keys. Once everything was assembled, I loaded the <a href="https://github.com/tmk/tmk_keyboard" target="_blank">TMK firmware</a> onto the microcontroller and had a working keyboard!
 
-![keyboard](/public/images/keyboard_finished.jpg "keyboard")
+![keyboard](/images/keyboard_finished.jpg "keyboard")
 
 Designing, sourcing parts, and assembling the keyboard took several months. Turns out it's also expensive to build your own keyboard. Here's the cost breakdown (excluding tools):
 
@@ -59,7 +59,7 @@ Designing, sourcing parts, and assembling the keyboard took several months. Turn
 
 ## Conclusions
 
-There's so many details to how I finally settled on a keyboard layout that it deserves it's own post, so I won't dig into those changes here. However, having `enter`, `backspace`, `space` and `delete` accessible to my thumbs is enough of a win on its own to make the change worthwhile. No more pulling my fingers off the home row to hit backspace or enter.
+There's so many details to how I finally settled on a keyboard layout that it deserves it's own post, so I won't dig into those changes here. However, having <kbd>enter</kbd>, <kbd>backspace</kbd>, <kbd>space</kbd> and <kbd>delete</kbd> accessible to my thumbs is enough of a win on its own to make the change worthwhile. No more pulling my fingers off the home row to hit backspace or enter.
 
 Another advantage is that touch typing numbers is trivial with an ortholinear layout. I've always had trouble with the number `6` on a standard keyboard.
 

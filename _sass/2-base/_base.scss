@@ -117,7 +117,7 @@ img,
     font-weight: normal;
     text-align: center;
     color: var(--heading-font-color);
-  
+
     a {
       font-weight: 500;
       border-bottom: 1px solid var(--border-color);
@@ -128,7 +128,7 @@ img,
         border-color: var(--link-color-hover);
       }
     }
-  
+
     @media only screen and (max-width: $mobile) {
       margin-top: 12px;
     }
@@ -228,4 +228,11 @@ table td {
 
 .lightense-backdrop {
   background-color: var(--background-alt-color) !important;
+}
+
+kbd {
+  background-color: var(--kbd-background-color);
+  color: var(--kbd-color);
+  padding: 0 .25em;
+  border-radius: 3px;
 }
