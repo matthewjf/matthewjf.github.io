@@ -4,7 +4,7 @@ title:  "Postgres JSON Serialization"
 date:   2019-05-01 20:30:02 -0700
 categories: Database
 tags: [postgres, database, json]
-image: "/public/images/elephant.jpg"
+image: "/images/elephant.jpg"
 ---
 
 Since PostgreSQL 9.2, there has been support for generating JSON directly in the database. Just search for <u><a href="http://www.google.com/search?q=how+to+generate+json+in+postgres+with+rails" target="_blank_">how to generate json in postgres with rails</a></u> and you'll see a handful of blog posts describing how to utilize these functions for some pretty significant performance gains.
@@ -29,7 +29,7 @@ The DSL, motivation, and performance benchmarks are all provided in the readme o
 
 Building out an <a href="https://github.com/matthewjf/pg_serializer_example" target="_blank_">example rails app</a>, I ran a few benchmarks against jbuilder and fast_jsonapi:
 
-![benchmarks](/public/images/pg_serializable_benchmarks.png "benchmarks")
+![benchmarks](/images/pg_serializable_benchmarks.png "benchmarks")
 
 ...
 
