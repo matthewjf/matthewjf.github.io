@@ -9,6 +9,8 @@
     background: var(--syntax-highlighting-background);
   }
 
+  code { background: transparent;}
+
   .hll { background:#282c34 }
   .c { color:#5c6370;font-style:italic }
   .err { color:#960050;background-color:#1e0010 }
