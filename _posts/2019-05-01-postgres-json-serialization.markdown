@@ -56,7 +56,7 @@ One of the early tradeoffs I made was to put the code responsible for defining t
 
 # Production
 
-I really wanted to see how it performed in production before investing more time. This project sat around for a couple months until I got a chance to implement it for new service that we were creating. So we setup some dashboards to see how this new service perfromed out in the wild and the results were surprising.
+I really wanted to see how it performed in production before investing more time. This project sat around for a couple months until I got a chance to implement it for new service that we were creating. So we setup some dashboards to see how this new service performed out in the wild and the results were surprising.
 
 The average response time on `GET` requests to our REST APIs was <b>~18ms</b>, with a p95 roughly double that! This wasn't a particularly high traffic application and we were careful about limiting the level of nesting in the responses, which helped keep our response times low, but I'd never worked in a rails application that was this performant. We didn't even implement caching, which would help quite a bit.
 

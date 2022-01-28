@@ -6,3 +6,11 @@ categories: Development
 tags: [chess, games, development]
 image: "/images/chess.jpg"
 ---
+
+What is realtime chess without turns?
+
+# The Game
+
+# Heuristics
+
+# Improvements
