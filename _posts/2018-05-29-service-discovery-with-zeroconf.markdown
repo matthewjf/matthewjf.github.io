@@ -29,7 +29,7 @@ It allows devices on the network to be discoverable.
 
 ### MacOS/iOS
 
-Apple products come with this enabled out of the box and it doesn't require any work.
+Apple products come with this enabled out of the box. It doesn't require any additional work, and it works great!
 
 ### Linux
 
@@ -45,7 +45,7 @@ I had a small 7" android tablet that I was intending to use as a dedicated remot
 
 ## Takeaways
 
-I initially liked the idea of running everything locally because of fewer security concerns and faster response times. If the only devices you need to connect are Apple and Linux devices, no problem. When you start mixing in Windows and Android, things can get a bit messier. Unfortunately, there's silver bullet to this problem.
+I initially liked the idea of running everything locally because of fewer security concerns and faster response times. If the only devices you need to connect are Apple and Linux devices, no problem. When you start mixing in Windows and Android, things can get a bit messier. Unfortunately, I couldn't find a silver bullet to this problem before moving to a different setup.
 
 ### Additional Info
 
