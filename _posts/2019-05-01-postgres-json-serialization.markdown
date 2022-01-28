@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Postgres JSON Serialization"
-date:   2019-05-01 20:30:02 -0700
+date:   2019-05-01
 categories: Database
 tags: [postgres, database, json]
 image: "/images/elephant.jpg"
@@ -31,8 +31,31 @@ Building out an <a href="https://github.com/matthewjf/pg_serializer_example" tar
 
 ![benchmarks](/images/pg_serializable_benchmarks.png "benchmarks")
 
-...
+The performance looked really promising. The DSL was really simple to understand, but also powerful. It supports multiple ways to serialize a record, and also allows serialization through Active Record relations.
+
+Some example serialization code:
+```ruby
+class Product < ApplicationRecord
+  serializable do
+    default do
+      attributes :name, :id
+    end
+  end
+end
+
+Product.find(10).json
+```
+<br/>
+
+
+One of the early tradeoffs I made was to put the code responsible for defining the serialization structure into the models. This coupled the view and model layers more than I would have liked, but it had some advantages. It enabled precomputing the ASTs for the SQL queries and validating that the serialization structure. Later I moved the validations into an initializer, which was a good first step towards decoupling these layers.
 
 # Production
 
-This project sat around for a couple months until I got a chance to implement it for new service that we were creating.
+I really wanted to see how it performed in production before investing more time. This project sat around for a couple months until I got a chance to implement it for new service that we were creating. So we setup some dashboards to see how this new service perfromed out in the wild and the results were surprising.
+
+The average response time on `GET` requests to our REST APIs was <b>~18ms</b>, with a p95 roughly double that! This wasn't a particularly high traffic application and we were careful about limiting the level of nesting in the responses, which helped keep our response times low, but I'd never worked in a rails application that was this performant. We didn't even implement caching, which would help quite a bit.
+
+# Conclusion
+
+Not long after this experiment, there was a company-wide decision to move to GraphQL. We maintained our existing REST APIs, but all of our new development was towards GraphQL. That said, if we were going to stick with REST, I certainly would have invested in expanding the capabilities. Also, PostgreSQL is pretty neat!

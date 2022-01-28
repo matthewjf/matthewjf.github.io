@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An Efficient Keyboard Layout"
-date:   2018-12-10 08:12:18 -0700
+date:   2018-12-10
 categories: Keyboards
 tags: [keyboards]
 image: "/images/infinity_ergodox.jpeg"
