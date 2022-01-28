@@ -26,8 +26,8 @@ menu__settings:
 # Hero Settings
 hero:
   hero__prefix: Hey there,
-  hero__title:  I'm Matt.
-  hero__description: I'm a software engineer with a focus on distributed systems. I'm deeply motivated by building exceptional engineering teams.
+  hero__title:  I'm Matt
+  hero__description: A software engineer with a focus on distributed systems. I am deeply motivated by building exceptional teams. Currently based in San Francisco, creating awesome things at <a href="https://asana.com" target="_blank" rel="noopener">Asana</a>.
 
 
 #-------------------------------

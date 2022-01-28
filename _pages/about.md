@@ -19,7 +19,7 @@ Podcasting operational change management inside of workflows to establish a fram
 ![Workflow]({{site.baseurl}}/images/lira.jpg)
 
 ![Workflow]({{site.baseurl}}/images/motorcycle.jpg)
-*Turn 2 Thunderhill East*
+*Thunderhill East*
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
@@ -31,7 +31,7 @@ Phosfluorescently engage worldwide methodologies with web-enabled technology. In
 
 Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or "organic" sources.
 
-<div class="gallery-box">
+<!-- <div class="gallery-box">
   <div class="gallery">
     <img src="/images/09.jpg">
     <img src="/images/06.jpg">
@@ -41,7 +41,7 @@ Collaboratively administrate turnkey channels whereas virtual e-tailers. Objecti
     <img src="/images/11.jpg">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
+</div> -->
 
 Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
 
