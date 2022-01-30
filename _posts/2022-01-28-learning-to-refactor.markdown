@@ -2,7 +2,11 @@
 layout: post
 title:  "Learning to Refactor"
 date:   2022-01-28
-categories: Code
-tags: [Refactoring]
+categories: Development
+tags: [development]
 image: "/images/tools.jpg"
 ---
+
+# Refactoring
+
+# Pairing

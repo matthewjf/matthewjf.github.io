@@ -32,7 +32,7 @@ Bring to the table win-win survival strategies to ensure proactive domination. A
     <div class="gallery__image"><img src="/images/motorcycle.jpg"></div>
     <div class="gallery__image"><img src="/images/infinity_ergodox.jpeg"></div>
     <div class="gallery__image"><img src="/images/twilight_imperium.jpg"></div>
-    <div class="gallery__image"><img src="/images/coffee.jpg"></div>
+    <div class="gallery__image"><img src="/images/coffee.jpeg"></div>
   </div>
   <em>Backpacking · Dogs · Motorcycles · Keyboards · Boardgames · Coffee</em>
 </div>

@@ -3,7 +3,7 @@ layout: post
 title:  "Postgres JSON Serialization"
 date:   2019-05-01
 categories: Database
-tags: [postgres, database, json]
+tags: [database, development]
 image: "/images/elephant.jpg"
 ---
 
