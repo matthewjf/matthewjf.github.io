@@ -58,10 +58,12 @@ One of the early tradeoffs I made was to put the code responsible for defining t
 
 I really wanted to see how it performed in production before investing more time. This project sat around for a couple months until I got a chance to implement it for new service that we were creating. So we setup some dashboards to see how this new service performed out in the wild and the results were surprising.
 
-The average response time on `GET` requests to our REST APIs was <b>~18ms</b>, with a p95 roughly double that! This wasn't a particularly high traffic application and we were careful about limiting the level of nesting in the responses, which helped keep our response times low, but I'd never worked in a rails application that was this performant. We didn't even implement caching, which would help quite a bit.
+The average response time on `GET` requests to our REST APIs was <b>~18ms</b>, with a p95 roughly double that. This wasn't a particularly high traffic application and we were careful about limiting the level of nesting in the responses, which helped keep our response times low, but I'd never worked in a rails application that was this performant. We didn't even implement caching, which would help quite a bit.
 
 ****
 
 # Conclusion
 
-Not long after this experiment, there was a company-wide decision to move to GraphQL. We maintained our existing REST APIs, but all of our new development was towards GraphQL. That said, if we were going to stick with REST, I certainly would have invested in expanding the capabilities. Also, PostgreSQL is pretty neat!
+Not long after this experiment, there was a company-wide decision to move to GraphQL. We maintained our existing REST APIs, but all of our new development was towards GraphQL. That said, if we were going to stick with REST, I certainly would have invested in expanding the capabilities.
+
+As our traffic scaled up, I suspect that adding caching and read replicas would get us pretty far. And finally, PostgreSQL is pretty neat!
