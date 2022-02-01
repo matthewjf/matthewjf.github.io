@@ -51,5 +51,3 @@ I initially liked the idea of running everything locally because of fewer securi
 
 <a href="https://github.com/matthewjf/bandit_mobile/" target="_blank_">React Native mobile client</a><br/>
 <a href="https://github.com/matthewjf/bandit/" target="_blank_">Node web application</a>
-
-***

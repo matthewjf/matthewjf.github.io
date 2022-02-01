@@ -67,5 +67,3 @@ The average response time on `GET` requests to our REST APIs was <b>~18ms</b>, w
 Not long after this experiment, there was a company-wide decision to move to GraphQL. We maintained our existing REST APIs, but all of our new development was towards GraphQL. That said, if we were going to stick with REST, I certainly would have invested in expanding the capabilities.
 
 As our traffic scaled up, I suspect that adding caching and read replicas would get us pretty far. And finally, PostgreSQL is pretty neat!
-
-***

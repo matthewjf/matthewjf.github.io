@@ -88,5 +88,3 @@ This is the number/symbol layer. Initially, I had a Numpad on the right hand, bu
 ## Conclusions
 
 It took a few years to come up with a layout that I really enjoy. The result is that I do most day to day tasks only using 44 of the 76 keys on the Ergodox. Hopefully this inspires others to think about how the use their keyboards and how they can be improved.
-
-***

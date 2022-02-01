@@ -66,5 +66,3 @@ Another advantage is that touch typing numbers is trivial with an ortholinear la
 On the downside, acrylic isn't very durable. Keys are held in place by a couple tabs on each of the switches. A few of these became loose or broke over time, which makes the switches feel unstable. Either a metal mounting plate or using PCB would likely resolve the problem.
 
 Ultimately, thumb usage and being able to customize the keyboard layout are the greatest benefits to the keyboard. I spend so much of my day on keyboards and have never regretted the investment. In fact, I built 3 more keyboards after that, improving on the initial design.
-
-***
