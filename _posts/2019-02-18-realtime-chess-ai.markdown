@@ -35,3 +35,5 @@ Another consideration is that moves are not instantaneous. It currently takes a 
 With these considerations in mind, the computer doesn't try to project too far out into the future.
 
 # Improvements
+
+***

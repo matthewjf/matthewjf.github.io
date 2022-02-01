@@ -9,7 +9,7 @@ image: "/images/elephant.jpg"
 
 Since PostgreSQL 9.2, there has been support for generating JSON directly in the database. Just search for <u><a href="http://www.google.com/search?q=how+to+generate+json+in+postgres+with+rails" target="_blank_">how to generate json in postgres with rails</a></u> and you'll see a handful of blog posts describing how to utilize these functions for some pretty significant performance gains.
 
-****
+***
 
 ## A Test Case
 
@@ -21,7 +21,7 @@ As a test case, I wrote the JSON generation as a large SQL query using the Postg
 
 So this got me thinking, what if we could package this in a developer friendly DSL?
 
-****
+***
 
 ## PgSerializable
 
@@ -52,7 +52,7 @@ Product.find(10).json
 
 One of the early tradeoffs I made was to put the code responsible for defining the serialization structure into the models. This coupled the view and model layers more than I would have liked, but it had some advantages. It enabled precomputing the ASTs for the SQL queries and validating that the serialization structure. Later I moved the validations into an initializer, which was a good first step towards decoupling these layers.
 
-****
+***
 
 # Production
 
@@ -60,10 +60,12 @@ I really wanted to see how it performed in production before investing more time
 
 The average response time on `GET` requests to our REST APIs was <b>~18ms</b>, with a p95 roughly double that. This wasn't a particularly high traffic application and we were careful about limiting the level of nesting in the responses, which helped keep our response times low, but I'd never worked in a rails application that was this performant. We didn't even implement caching, which would help quite a bit.
 
-****
+***
 
 # Conclusion
 
 Not long after this experiment, there was a company-wide decision to move to GraphQL. We maintained our existing REST APIs, but all of our new development was towards GraphQL. That said, if we were going to stick with REST, I certainly would have invested in expanding the capabilities.
 
 As our traffic scaled up, I suspect that adding caching and read replicas would get us pretty far. And finally, PostgreSQL is pretty neat!
+
+***

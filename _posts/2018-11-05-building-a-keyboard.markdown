@@ -11,7 +11,7 @@ I use a lot tools to optimize my life, but spent 20+ years using keyboards witho
 
 > A feature much less commented-on than the order of the keys is that the keys do not form a rectangular grid, but rather each column slants diagonally. This is because of the mechanical linkages – each key is attached to a lever, and hence the offset prevents the levers from running into each other – and has been retained in most electronic keyboards. (<cite><a href="https://en.wikipedia.org/wiki/QWERTY#Properties" target="_blank_">source</a></cite>)
 
-****
+***
 
 ## Motivation
 
@@ -28,7 +28,7 @@ I wanted to rethink keyboards with a number of improvements:
 
 Finally, I hoped to understand how keyboards work at the end of this process, which is why I built one from scratch.
 
-****
+***
 
 ## The Build
 This will be a short section. Much of the process was taken directly from this <a href="https://gizmodo.com/i-built-a-keyboard-from-scratch-1649325860" target="_blank">article</a>.
@@ -55,7 +55,7 @@ Designing, sourcing parts, and assembling the keyboard took several months. Turn
 | **total**             | **$282.78** |
 
 
-****
+***
 
 ## Conclusions
 
@@ -66,3 +66,5 @@ Another advantage is that touch typing numbers is trivial with an ortholinear la
 On the downside, acrylic isn't very durable. Keys are held in place by a couple tabs on each of the switches. A few of these became loose or broke over time, which makes the switches feel unstable. Either a metal mounting plate or using PCB would likely resolve the problem.
 
 Ultimately, thumb usage and being able to customize the keyboard layout are the greatest benefits to the keyboard. I spend so much of my day on keyboards and have never regretted the investment. In fact, I built 3 more keyboards after that, improving on the initial design.
+
+***

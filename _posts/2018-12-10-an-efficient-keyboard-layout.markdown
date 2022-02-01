@@ -9,13 +9,13 @@ image: "/images/infinity_ergodox.jpeg"
 
 I thought a lot about keyboard efficiency while designing and [building a keyboard](keyboards/2019/01/05/building-a-keyboard.html). I had a friend mention that he used <a href="https://colemak.com/" target="_blank_">Colemak</a>, a keyboard layout alternative to QWERTY. This got me wondering, what makes an efficient keyboard layout?
 
-****
+***
 
 ## Drawbacks of QWERTY
 
 QWERTY was created in the 1870s for typewriters. Typewriters have mechanical arms that each key actuates to put a letter onto the page. This requires much more force than a computer keyboard. Because of this, QWERTY was optimized for alternating hands while typing. Similarly, typewriters need an offset layout so that the mechanical arms don't overlap. Neither of these considerations apply to computer keyboards today.
 
-****
+***
 
 ## Alternatives
 
@@ -34,7 +34,7 @@ After some searching, I found the <a href="https://workmanlayout.org/" target="_
 
 It took several months of using Workman before reaching a similar level of proficiency. Many common key combinations became much easier and quicker, and I felt overall less finger stress while using it. But Workman only changes the orientation of letters. As I continued to use it, I found there was a lot of opportunity for improvement in other areas.
 
-****
+***
 
 ## Customization
 
@@ -83,8 +83,10 @@ Overall, this hand could use some improvement.
 
 This is the number/symbol layer. Initially, I had a Numpad on the right hand, but couldn't get used to it. Putting all the numbers on the home row and symbols one row above it made a lot of sense. Brackets and parentheses are on the bottom row. I use these a lot when coding and they're much easier to reach in these locations.
 
-****
+***
 
 ## Conclusions
 
 It took a few years to come up with a layout that I really enjoy. The result is that I do most day to day tasks only using 44 of the 76 keys on the Ergodox. Hopefully this inspires others to think about how the use their keyboards and how they can be improved.
+
+***
