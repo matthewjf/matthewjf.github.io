@@ -2,22 +2,22 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/01.jpg'
+image: '/images/about2.jpeg'
 ---
 
-I'm Matt, a software engineer with a focus on distributed systems. PASSION, DREAM, CURRENT.
+## My Story
 
-Hover EXP
+I'm Matt, a software engineer with a focus on distributed systems. I am deeply motivated by enabling engineering teams move faster, safer. My dream is to become a technical co-founder. Currently building amazing things at Asana.
 
-Darby Smart EXP
+Before Asana, I worked at HOVER. During my time there, I was the technical lead for a team of ten engineers. We took a new product from conception to market, unlocking two new revenue streams for the company. We built a culture of refactoring, small moves and continuous deployments.
 
-UX EXP
+Prior to HOVER, I was at Darby Smart, an early stage social media company that was later acquired. As a fullstack engineer, I migrated our backbone frontend to server rendered react with a 60% increased PageSpeed score. Since there were only five engineers when I joined, I had a hand in all parts of the tech stack.
 
-College degree
+In a previous life, I worked as a UX designer at MeridianLink, building mortgage loan origination software.
 
-[View my resume](/resume.pdf)
+[My resume](/resume.pdf)
 
-### Other Interests
+## Interests
 
 <div class="gallery-box">
   <div class="gallery">
