@@ -7,7 +7,7 @@ image: '/images/about2.jpeg'
 
 ## My Story
 
-I'm Matt, a software engineer with a focus on distributed systems. I am deeply motivated by enabling engineering teams move faster, safer. My dream is to become a technical co-founder. Currently building amazing things at Asana.
+{{ site.data.settings.hero.hero__title }}, {{ site.data.settings.hero.hero__description | downcase_first }}
 
 Before Asana, I worked at HOVER. During my time there, I was the technical lead for a team of ten engineers. We took a new product from conception to market, unlocking two new revenue streams for the company. We built a culture of refactoring, small moves and continuous deployments.
 
@@ -15,7 +15,8 @@ Prior to HOVER, I was at Darby Smart, an early stage social media company that w
 
 In a previous life, I worked as a UX designer at MeridianLink, building mortgage loan origination software.
 
-[My resume](/resume.pdf)
+[LinkedIn](https://linkedin.com/in/mattjfong){:target="_blank"} · [Github](https://github.com/matthewjf){:target="_blank"} · [Resume](/resume.pdf){:target="_blank"}
+{: style="text-align: center;"}
 
 ## Interests
 
