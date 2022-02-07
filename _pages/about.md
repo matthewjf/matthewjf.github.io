@@ -15,8 +15,9 @@ Prior to HOVER, I was at Darby Smart, an early stage social media company that w
 
 In a previous life, I worked as a UX designer at MeridianLink, building mortgage loan origination software.
 
-[LinkedIn](https://linkedin.com/in/mattjfong){:target="_blank"} · [Github](https://github.com/matthewjf){:target="_blank"} · [Resume](/resume.pdf){:target="_blank"}
-{: style="text-align: center;"}
+<!-- [LinkedIn](https://linkedin.com/in/mattjfong){:target="_blank"} · [Github](https://github.com/matthewjf){:target="_blank"} · [Resume](/resume.pdf){:target="_blank"} -->
+<!-- {: style="text-align: center; font-weight: 700; font-size: 18px; color: var(--brand-color)"} -->
+<center><h5><a href="/resume.pdf" target="_blank" style="color: var(--brand-color);">RESUME</a></h5></center>
 
 ## Interests
 
